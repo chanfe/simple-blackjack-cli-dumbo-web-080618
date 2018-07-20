@@ -46,7 +46,6 @@ def hit?(card_total)
   else
     invalid_command
   end
-  
   card_total
 end
 
@@ -63,11 +62,11 @@ end
 def runner
   # code runner here
   welcome
-  initial_round
-  until display_card_total > 21 do
-    hit?
-    display_card_total
-  end
-  end_game
+  #initial_round
+  #until display_card_total > 21 do
+  #  hit?
+  #  display_card_total
+  #end
+  #end_game
 end
     
